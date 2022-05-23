@@ -48,11 +48,11 @@ options(shiny.reactlog = TRUE)
 # Field name of the unique ID number that mongo automatically assigns to database rows. This only needs to change if we switch database hosts
 mongoID_dbField_gv <- "_id"
 
-mlab_host_gv <- "cluster0.oz5v9.mongodb.net"
-mlab_username_gv <- "collablocation"
-mlab_password_gv <- "b1k3SC00T"
+mlab_host_gv <- "mongoHost.net"
+mlab_username_gv <- "mongoUsername"
+mlab_password_gv <- "mongoPassword"
 
-workshop_dbName_gv <- "mobHub_tempe_21"
+workshop_dbName_gv <- "mongoDB"
 
 mongoURL_gv <- glue(
   "mongodb+srv://{un}:{pw}@{h}/{db}?retryWrites=true&w=majority",
