@@ -8,8 +8,9 @@ This repository does NOT contain:
 - MongoDB database architecture
 - spatial datasets
 - .png files used for icons
+- reference to the overall geodesign process, of which this platform is only part. Visit collablocation.shinyapps.io/home, igc-geodesign.org, or esri.com/en-us/arcgis/geodesign for more info
 
-I've done my best to provide helpful comments and code clearly throughout the project. That said, I rushed to finalize a working version and there may be some unclear sections. I apologize for any incoherence, and ask that you direct any inquiries to oglj@asu.edu
+I've done my best to provide helpful comments and code clearly throughout the project. That said, I rushed to finalize a working version and there may be some unclear sections. I hope to add additional comments in the near future. I apologize for any incoherence, and ask that you direct any inquiries to oglj@asu.edu
 
 Thank you, and best,
 -Oscar
