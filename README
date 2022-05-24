@@ -1,9 +1,13 @@
-This repository contains the R code that comprises the Collablocation module for locating micromobility hubs in Tempe, Arizona, U.S.A. It consists of two files: app.R and global.R. I've edited out any passwords and API keys; you'll need to source your own accounts and keys to adapt this code.
+This repository contains the R code that comprises the Collablocation module for locating micromobility hubs in Tempe, Arizona, U.S.A. 
+
+It consists of two files: app.R and global.R. I've edited out any passwords and API keys; you'll need to source your own accounts and keys to adapt this code.
+
+I used the Shiny package to construct an interactive and responsive framework, the Leaflet package for geospatial data visualization, and MongoDB for remote data storage and retrieval.
 
 This repository does NOT contain:
-- the MongoDB database architecture required for the module to function
-- the spatial datasets required for the module to function
-- the .png files used for icons throughout the module
+- MongoDB database architecture
+- spatial datasets
+- .png files used for icons
 
 I've done my best to provide helpful comments and code clearly throughout the project. That said, I rushed to finalize a working version and there may be some unclear sections. I apologize for any incoherence, and ask that you direct any inquiries to oglj@asu.edu
 
