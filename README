@@ -10,7 +10,21 @@ This repository does NOT contain:
 - MongoDB database architecture
 - reference to the overall geodesign process, of which this platform is only part. Visit collablocation.shinyapps.io/home, igc-geodesign.org, or esri.com/en-us/arcgis/geodesign for more info
 
-I've done my best to provide helpful comments and code clearly throughout the project. That said, I rushed to finalize a working version and there may be some unclear sections. I hope to add additional comments in the near future. I apologize for any incoherence, and ask that you direct any inquiries to oglj@asu.edu
+Using and adjusting this code will require a working knowledge of GIS, R, and Shiny programming. Familiarity with Javascript, CSS, HTML, and principles of good web design will help when customizing the user interface. This program uses some regex for parsing text strings.
+
+The "sf" package in R is capable of reading, writing, and conducting operations on spatial data. A dedicated GIS platform is therefore not strictly necessary--though it is helpful--when adapting the Collablocation platform to new contexts.
+
+I've done my best to provide helpful comments and code clearly throughout the project. That said, I rushed to finalize a working version and there may be some unclear sections or unoptimized code. I apologize for any incoherence, and ask that you direct any inquiries to oglj@asu.edu
+
+Resources for understanding reactivity in Shiny:
+https://resources.rstudio.com/resources/shiny-dev-con/reactivity-pt-1-joe-cheng/
+https://resources.rstudio.com/resources/shiny-dev-con/reactivity-pt-2/
+https://shiny.posit.co/r/articles/
+
+Resources for using the Shiny Leaflet Package:
+https://rstudio.github.io/leaflet/shiny.html
+
+Good coding practice will also help. I recommend using Stack Overflow and the GIS Stack Exchange regularly to develop solutions to any programming challenges.
 
 Thank you, and best,
 -Oscar
