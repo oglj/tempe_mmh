@@ -16,13 +16,11 @@ The "sf" package in R is capable of reading, writing, and conducting operations 
 
 I've done my best to provide helpful comments and code clearly throughout the project. That said, I rushed to finalize a working version and there may be some unclear sections or unoptimized code. I apologize for any incoherence, and ask that you direct any inquiries to oglj@asu.edu
 
-Resources for understanding reactivity in Shiny:
-https://resources.rstudio.com/resources/shiny-dev-con/reactivity-pt-1-joe-cheng/
-https://resources.rstudio.com/resources/shiny-dev-con/reactivity-pt-2/
-https://shiny.posit.co/r/articles/
-
-Resources for using the Shiny Leaflet Package:
-https://rstudio.github.io/leaflet/shiny.html
+Resources for developing using Shiny
+["Reactivity Pt. 1" -- Joe Cheng, 2016 Shiny Dev Con](https://resources.rstudio.com/resources/shiny-dev-con/reactivity-pt-1-joe-cheng/)
+["Reactivity Pt. 2" -- Joe Cheng, 2016 Shiny Dev Con](https://resources.rstudio.com/resources/shiny-dev-con/reactivity-pt-2/)
+[Guides and tutorials for developing using Shiny](https://shiny.posit.co/r/articles/)
+[Using Leaflet with Shiny](https://rstudio.github.io/leaflet/shiny.html)
 
 Good coding practice will also help. I recommend using Stack Overflow and the GIS Stack Exchange regularly to develop solutions to any programming challenges.
 
